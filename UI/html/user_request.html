@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Andela Challenge one">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="author" content="Irene Nyakate">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' type='text/css' href='../css/signin_admin.css'>
+</head>
+
+<body>
+	<form>
+		<fieldset>
+			<div class="imgcontainer">
+				<img src="../images/andela.png" alt="Andela logo">
+				<br>
+				<br>
+				<address>
+					Andela Uganda
+					<br> Plot 103
+					<br> Kira Road
+					<br> Kampala
+				</address>
+			</div>
+		</fieldset>
+		<div class="container">
+			<h1>Maintenance or Repairs Request</h1>
+			<p>Please fill in this form to place your maintenance or repairs request with Andela.</p>
+			<table>
+				<tbody>
+					<tr>
+						<td>
+							<label for="name">
+								<b>Client Name:</b>
+							</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Enter Your Name" name="name" required="required" />
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label for="name">
+								<b>Client Contact:</b>
+							</label>
+						</td>
+						<td>
+							<input type="number" placeholder="Enter Your phone number" name="phone" required="required" />
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<label for="email">
+								<b>Client Email:</b>
+							</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Enter Your Email" name="email" required="required" />
+							<td>
+					</tr>
+
+					<tr>
+						<td>
+							<label for="address">
+								<b>Location address:</b>
+							</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Enter Your address" name="address" required="required" />
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<label for="dept">
+								<b>Department:</b>
+							</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Enter Your department" name="dept" required="required" />
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<label for="ndate">
+								<b>Date needed:</b>
+							</label>
+						</td>
+						<td>
+							<input type="date" placeholder="Enter date" name="ndate" required="required" />
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<label for="work">
+								<b>Work assigned to:</b>
+							</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Assigned to" name="work" />
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<label for="bill">
+								<b>Work billed to:</b>
+							</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Billed to" name="bill" />
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label for="detail">
+								<b>Details of Request:</b>
+							</label>
+						</td>
+						<td>
+							<textarea class= "textarea" name="detail">Enter details of request...</textarea>
+						</td>
+					</tr>
+		
+				</tbody>
+			</table>
+		</div>
+		<div class="clearfix">
+			<button type="button" class="cancelbtn">
+				<a href="user_page.html">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+			<button type="submit" class="submit">
+				<a href="user_page.html">Place my request</button>
+		</div>
+	</form>
+</body>
+
+</html>
